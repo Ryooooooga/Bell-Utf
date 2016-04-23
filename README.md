@@ -1,4 +1,4 @@
-# Bell-Utf
+# Utf
 UTFエンコーディングの文字種を判定する関数群
 
 # Examples
@@ -20,5 +20,5 @@ static_assert(Utf32::isWhitespace(U'\t')     == true , "");
 これらの関数は全てコンパイル時にも利用出来ます。
 
 # License
-Bell-Utf is distributed under the [Boost Software License, Version 1.0](http://www.boost.org/LICENSE_1_0.txt).
+Utf is distributed under the [Boost Software License, Version 1.0](http://www.boost.org/LICENSE_1_0.txt).
 
