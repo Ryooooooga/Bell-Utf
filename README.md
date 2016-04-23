@@ -15,7 +15,7 @@ static_assert(Utf16::toLowerCase(u'E')       == u8'e', "");
 
 static_assert(Utf32::isLowerCase(U'B')       == false, "");
 static_assert(Utf32::isUpperCase(U'B')       == true , "");
-static_assert(Utf32::isWhitespace(U'\t')     == true , "");
+static_assert(Utf32::isWhiteSpace(U'\t')     == true , "");
 ```
 これらの関数は全てコンパイル時にも利用出来ます。
 
